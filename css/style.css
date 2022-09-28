@@ -10,13 +10,23 @@ body{
     background: url(../Image/bg.png) no-repeat center center;
     background-color: var(--meinColor);
     background-size: cover;
-    min-height: 900px;
+    /* min-height: 900px; */
     font-family: 'ubuntu',sans-serif;
 }
 /* navbar */
 .nav-link.active{
     color: var(--aksenColor) !important;
     font-weight: 700;
+}
+.bd-subnavbar {
+    position: sticky;
+    z-index: 1020;
+    color: var(--aksenColor)!important;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
+.py-2 {
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
 }
 
 /* selesai navbar */
